@@ -1,0 +1,305 @@
+
+.result-div {
+    border: 2px solid #777;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #191a1e;
+}
+
+ /* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#map {
+   width: 100%;
+   height: 300px;
+   padding-left: 20%;
+   padding-right: 20%;
+   margin-bottom: 10px;
+}
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+body{
+  background-image: url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 32px;
+    font-family: verdana;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#seatgeek-argument {
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+#scheduled-events-panel {
+    overflow-y: scroll;
+    border: 2px solid grey;
+    margin-bottom: 15px;
+    background-color: #191a1e;
+    padding-left: 5px;
+  }
+
+#seatgeek-results {
+  height:500px;
+  overflow-y: scroll;
+  border: 2px solid grey;
+  margin-bottom: 15px;
+}
+
+.info-div {
+    margin-bottom: 10px;
+}
+
+.info-title {
+    font-weight: bold;
+}
+
+.btn {
+    
+    background-color: #535353;
+    border-color: #535353;
+    color: #ffffff;
+}
+
+#logout-btn {
+    float: right;
+    margin-top: 26px;
+    margin-right: 13px;
+}
+    
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.collapsible {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: rgb(189, 189, 189);
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.checkbox * {
+    vertical-align: middle;
+}
+.results {
+  float: right;
+}
+.inputBox {
+  display: block;
+}
+
+#tweets {
+    overflow-y: scroll;
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tweet-div {
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+}
+
+#weather-info {
+    margin-bottom: 20px;
+}
+
+#weather-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#additional-info-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 21px;
+}
+
+#modal-text{
+    color: #000000;
+}
+.modal-title{
+    font-weight: bold;
+    color: #000000;
+}
+
+#sports-argument, #seatgeek-btn, #seatgeek-argument{
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info-title {
+    font-weight: bold;
+}
+
+#submission-form {
+    margin-bottom: 15px;
+}
+
+#additional-info-event-title {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#additional-info {
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.sub-header {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.inline-subheader {
+    margin-top: 15px;
+}
+
+.marker-info {
+    color: #000000;
+}
+
+#tweet-title {
+    margin-top: 10px;
+}
+
+#upcoming-events-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#scheduled-events-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#save-to-scheduled-events {
+    float: right;
+    margin-bottom: 5px;
+}
+
+#info-main-title {
+    clear: both;
+}
+
+.scheduled-event-div {
+    margin-bottom: 15px;
+}
+
+.scheduled-event-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.scheduled-event-info-btn {
+    margin-right: 5px;
+}
+
+#seatgeek-results::-webkit-scrollbar {
+    width: 1em;
+ }
+ 
+ #seatgeek-results::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ }
+ 
+ #seatgeek-results::-webkit-scrollbar-thumb {
+  background-color: rgb(74, 65, 87);
+  outline: 1px solid slategrey;
+  opacity: 0.6;
+ }
+
+ #tweet-div, #tweets::-webkit-scrollbar {
+    width: 1em;
+ }
+ 
+ #tweet-div, #tweets::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ }
+ 
+ #tweet-div, #tweets::-webkit-scrollbar-thumb {
+  background-color: rgb(74, 65, 87);
+  outline: 1px solid slategrey;
+  opacity: 0.6;
+ }
+
+ #scheduled-events-panel::-webkit-scrollbar {
+    width: 1em;
+ }
+ 
+ #scheduled-events-panel::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+ }
+ 
+ #scheduled-events-panel::-webkit-scrollbar-thumb {
+  background-color: rgb(74, 65, 87);
+  outline: 1px solid slategrey;
+  opacity: 0.6;
+ }
